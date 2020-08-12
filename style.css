@@ -1,16 +1,49 @@
 body {
-  background-color: mistyrose;
+    margin: 20px;
+    background-color: mistyrose;
 }
  /* BODY { background-image: url(https://media.tenor.com/images/e7bacb9898a141399b6257330bd801cf/tenor.gif) } */
- .overline {
+.overline {
   border-top: 3px solid;
 }
 h1 {
   text-shadow: 3px 2px azure;
 }
-h1 {
-i class="fas fa-cloud" style="font-size:60px;color:lightblue;"
-</i>
 h2 {
   text-decoration: underline;
 }
+
+/* #menu.shadow {
+    box-shadow: none !important;
+} */
+/* div.polaroid {
+  width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+} */
+
+
+div.polaroid {
+  width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div.rotate_right {
+  float: left;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  transform: rotate(7deg);
+}
+
+div.rotate_left {
+  float: left;
+  -ms-transform: rotate(-8deg); /* IE 9 */
+  -webkit-transform: rotate(-8deg); /* Safari */
+  transform: rotate(-8deg);
+}
+
